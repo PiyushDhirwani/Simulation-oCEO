@@ -37,7 +37,7 @@
 - d0.1_T0.85_data_validate_python
   - R4, R5, R6, R7
   - Data files gnn.dat, gn_m.dat, central_moments.dat, moments.dat
-
+---------
 - SW_HS_db0.1_T0.85
   - R1, R2, R3, R4, R5, R6, R7
   - Data files xyz_{Process_no.}_{file_no.}.dat for cluster and RDF
@@ -48,8 +48,14 @@
 - sim_lib.py
   - Main library with all functions already imported
   - Directly call ```import sim_lib``` or ```from sim_lib import *```
-
+--------
 - test.py
   - Call ```from sim_lib import sim_lib```
   - Assign ```simulator=sim_lib()```
   - Call any function with ```simulator.{function_name}```
+
+
+## Setup
+- Clone the repo with ```git clone https://github.com/PiyushDhirwani/Simulation-oCEO.git```
+- Or directly download the .zip file from the *Code* section
+- In the new terminal or cmd run ```pip install -e .```
